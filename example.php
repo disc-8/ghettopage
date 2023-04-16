@@ -1,6 +1,6 @@
 <?php
  $pagetitle="Home";
- include 'header.php';
+ include '/header.php';
 ?>
 <h1 id="welt">ХУЯ ПОСОСІ.</h1>
 DiSC-8互联网上的强奸犯群体
@@ -32,5 +32,5 @@ am ORGASMING right now.
 </three-way></pre<!--cum-->
 </X></p>
 <?php
- include 'footer.php';
+ include '/footer.php';
 ?>
