@@ -8,7 +8,13 @@ Really it just works for simple blog things, game publishing, etc, **njoy!**
 ## Layout
 Ghettopage's layout is based on 3 panels.
 * Header, with your site's title and the page's title
-* Sidebar, with any external links, links to other pages, etc. **Make sure you edit when putting on your site, its in `header.php`** 
+* Sidebar, with any external links, links to other pages, etc. 
 * Main view, with literally anyffin, editable in a main page,like `index.php`
 
 Pretty simple to grasp(like my COCK)
+
+## Installation
+literally just dump the `header`&`footer` onto your websites root, then copy&edit the example for index
+its that simple. no filozofy.
+
+**Make sure you edit the sidebar & title, its in `header.php`** 
