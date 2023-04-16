@@ -1,6 +1,6 @@
 <?php
- $page-title="Home"
- include '/header.php';
+ $pagetitle="Home";
+ include 'header.php';
 ?>
 <h1 id="welt">ХУЯ ПОСОСІ.</h1>
 DiSC-8互联网上的强奸犯群体
@@ -20,9 +20,17 @@ grandmas pacemaker?u know it!graffix r simpyl ANSI art, VERY liteweit.</td></tr>
 test
 am ORGASMING right now.
       </pre>
+<h1>CUMBLAST.lv</h1>
+<form>
+<ul>
+<li>YHUZAN8m: <input type="text" name="imya"><br>
+</li><li>PAROL: <input type="text" name="pass"><br>
+</li></ul>
+<button>SUCKit</button>
+</form>
 
-</three-way></pre<!--cum--> >
-</X></p>p
+</three-way></pre<!--cum-->
+</X></p>
 <?php
- include '/footer.php';
+ include 'footer.php';
 ?>
