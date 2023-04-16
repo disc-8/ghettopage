@@ -1,6 +1,6 @@
 <?php
- $color="yellow"
- $site-title="DiSC-8 Ghettopage Example"
+ $color="255,0,0";
+ $sitename="DiSC-8 Ghettopage Example";
 ?>
 
 <!--
@@ -46,67 +46,69 @@
       background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
     }
     h1{
-      color:<?php echo "$color" ?>;
+      color:<?php echo "rgba($color,1)" ?>;
       font-weight:bold;
       padding:0;
       margin:0;
       font-style: italic;
     }
     div{
-        border:5px <?php echo $color ?> ridge;
+        border:5px <?php echo "rgba($color,1)" ?> ridge;
     }
     pre,td{
       background-color:rgba(3,3,3,0.8);
       background-image:repeating-linear-gradient(rgb(14,14,14) 0px,rgb(20,20,28),rgb(14,14,14) 6px);
       padding:2px;
       white-space: pre-wrap;
-      border:2px ridge gray;
+      border:4px ridge <?php echo "rgba($color,0.3)" ?>;
       margin:5px;
     }
     pre:before{content:" 8=D ";font-size:larger;color:grey}
     p{margin:5px;}
     .censor{color:transparent;background-color:black;width:fit-content;}
     .censor:hover{color:white}
-    h1::before{content:'// ';font-weight:bold;color:yellowgreen;margin-left:5px;}
+    h1::before{content:'// ';font-weight:bold;color: <?php echo "rgba($color,1)" ?> ;margin-left:5px;}
     .rumNbetsy{
         margin-right:200px;
-        width:205px;
-        max-width:205px;
+        width:305px;
+        max-width:305px;
         position:fixed;
         height:100%;
-        filter: brightness(0.4);
-        background: linear-gradient(to top, <?php echo "$color" ?> 0%, rgba(0,0,0,0) 100%);
+        background: linear-gradient(to top, <?php echo "rgba($color,0.4)" ?> 0%, rgba(5,5,5,0) 100%);
         float:left;
     }
     .ulookynsexcymama{
-        margin-left:215px;
-        background: linear-gradient( rgba(88,88,0,1) 0%, rgba(0,0,0,0) 100%);
+        margin-left:315px;
+        min-height:94%;
+        background: linear-gradient( <?php echo "rgba($color,0.4)" ?> 0%, rgba(0,0,0,0) 100%);
     }
     a{color:white;text-decoration:underline;}
-    a::before{content:"#";color:grey;font-size:5mm;text-decoration:none;}
+    a::before{content:"🡽";color:<?php echo "rgba($color,0.6)" ?>;font-size:3mm;text-decoration:none;display:inline-bloc
+k}
     .nordeste{
-        top:90%;
+        color:grey;
+        top:100%;
         font-size:x-small;
-        width:70%;
-        text-align:center;
+        width:20%;
+        text-align:right;
         margin-left:auto;
         margin-right:5px;
 
     }
   </style>
   <meta charset="utf-8">
-  <title><?php echo "$page-title - $site-name" ?></title>
+  <title><?php echo "$pagetitle - $sitename" ?></title>
 <html>
-<div><h1><span style="color:white"><?php echo "$site-name" ?></span><span style="color:grey"> // </span><?php echo "$page-title" ?></div>
+<div><h1><span style="color:white"><?php echo "$sitename" ?></span><span style="color:grey"> // </span><?php echo "$pagetitle" ?></div>
 <div class="rumNbetsy">
     <p>
-      <h1>PartnerWebsites寄存侏儒色情制品的网站</h1>
+      <h1>PartnerWebsite<br>寄存侏儒色情制品的网站</h1>
     <a href="http://example.org">one website</a><br>
     <a href="https://github.com/disc-8">github/pornhub</a>
     </p>
     <hr>
     <p>
-      <h1>NAVIGATION/навигация сайта</h1>
+      <h1>NAVIGATION<br>навигация сайта</h1>
       <a href="/1.php">page 1</a><br>
       <a href="/2.php">products</a><br>
       <a href="/3.php">example</a>
