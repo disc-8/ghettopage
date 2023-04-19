@@ -40,7 +40,7 @@
 
   <meta charset="utf-8">
   <title><?php echo "$pagetitle - $sitename" ?></title>
-<link rel="stylesheet" href="themes/<?php echo $theme" ?>.css"; ?>
+<link rel="stylesheet" href="themes/<?php echo $theme" ?>.css"; ?>">
 <html>
 <div><h1><span style="color:white"><?php echo "$sitename" ?></span><span style="color:grey"> // </span><?php echo "$pagetitle" ?></div>
 <div class="rumNbetsy">
