@@ -1,9 +1,9 @@
 <?php
  $color="255,0,0";
  $sitename="DiSC-8 Ghettopage Example";
- $style="default";
-// themes: default, greyish, termong
-//will add more soon
+ $theme="default";
+// so far default only theme
+// will add more soon
 ?>
 
 <!--
@@ -40,7 +40,7 @@
 
   <meta charset="utf-8">
   <title><?php echo "$pagetitle - $sitename" ?></title>
-<link rel="stylesheet" href="styles/<?php echo $style" ?>.css"; ?>
+<link rel="stylesheet" href="themes/<?php echo $theme" ?>.css"; ?>
 <html>
 <div><h1><span style="color:white"><?php echo "$sitename" ?></span><span style="color:grey"> // </span><?php echo "$pagetitle" ?></div>
 <div class="rumNbetsy">
